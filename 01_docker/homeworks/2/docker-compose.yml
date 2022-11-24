@@ -4,4 +4,4 @@ services:
     build: .
     image: ibdevserver
     ports:
-      - 9999:9999
+      - 1000:9999
