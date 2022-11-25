@@ -25,3 +25,5 @@
 `Standard outputs should not be used directly to log anything.` - при логировании авторизационных данных используется стандартный ввод/вывод  
 `Boolean expressions should not be gratuitous` - в условном операторе используется boolean переменная, значение которой всегда одно и тоже.  
 `Generic exceptions should never be thrown` - лучше создавать и выбрасывать свои исключения чем использовать системные(предопределенные).  
+
+![](pic/sonar-test-result.png)
