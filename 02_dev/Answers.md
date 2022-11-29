@@ -16,9 +16,8 @@
 Категория: `Insecure Configuration`  
 Приоритет `средний`
 1. К каким CWE идёт отсылка для Security Hotspots из п. 2? См. вкладку `How can you fix it?` в нижней части страницы.   
-`CVE-2018-1999007`  
-`CVE-2015-5306`  
-`CVE-2013-2006`  
+`MITRE, CWE-489 - Leftover Debug Code`  
+`MITRE, CWE-215 - Information Exposure Through Debug Information`  
 1. Какие запахи кода были выявлены: количество, описание, почему SonarQube их считает запахами кода? См. ссылку `Why is this an issue?`.  
 5 запахов кода.  
 `Unnecessary imports should be removed.` - неиспользуемые импорты зависимостей снижают уровень читаемости кода.  
